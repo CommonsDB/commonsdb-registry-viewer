@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* the class should be applied to both the container and the content to ensure the scroll appears at the top */
+  .tabs-top-scrollbar {
+    transform: rotateX(180deg);
+  }
+  .tabs-scrollbar::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  .tabs-scrollbar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .tabs-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 100vh;
+    border: 2px solid white;
+  }
+
+  .tabs-scrollbar:hover::-webkit-scrollbar-thumb {
+    background: #d6dee1;
+  }
+}

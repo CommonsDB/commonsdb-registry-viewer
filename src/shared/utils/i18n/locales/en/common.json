@@ -1,0 +1,142 @@
+{
+  "btn": {
+    "explorer": "CommonsDB Explorer",
+    "randomDeclarations": "Random declarations",
+    "statistics": "Statistics dashboard",
+    "aboutCommonsDb": "About CommonsDB",
+    "documentation": "Documentation",
+    "clickToUpload": "Click to upload"
+  },
+  "pageTitle": {
+    "explorer": "CommonsDB Explorer",
+    "randomDeclarations": "Random declarations",
+    "statistics": "CommonsDB Statistics Dashboard"
+  },
+  "placeholder": {
+    "search": "Search for ISCC code or Declaration ID"
+  },
+  "orDragAndDrop": "or drag and drop",
+  "noDataAvailable": "No data available",
+  "declarationsChecked": "Number of declarations",
+  "error": {
+    "loadFailed": "Could not load declarations. Please try again.",
+    "uploadFailed": "Could not process the uploaded file. Please try again."
+  },
+  "notification": {
+    "copied": "Copied to clipboard"
+  },
+  "column": {
+    "declarerLogo": "Preview",
+    "declarer": "Declarer",
+    "declarationDate": "Declaration Time",
+    "rightsStatement": "Rights Statement",
+    "location": "Source"
+  },
+  "tableDropdown": {
+    "declarationDate": "Declaration Time",
+    "declarationId": "Declaration-ID",
+    "declarerId": "Declarer ID",
+    "distance": "Distance",
+    "iscc": "ISCC",
+    "location": "Source",
+    "pdRationale": "PD Rationale",
+    "rightsStatement": "Rights Statement",
+    "signature": "Signature"
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "description": "This is an early release of the CommonsDB Explorer, available for testing and feedback. Features are still under development and subject to change."
+  },
+  "sidebar": {
+    "coFundedByEu": "CommonsDB is co-funded by the European Union under the 2023 work programme on the financing of Pilot Projects and Preparatory Actions in the field of Communications Networks, Content and Technology",
+    "poweredBy": "Powered by Liccium"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to CommonsDB Explorer",
+      "description": {
+        "part1": "CommonsDB Explorer helps you discover declarations about Public Domain and openly licensed works. These declarations are provided by trusted repositories of cultural, scientific, and creative materials, including the Europeana Foundation and Wikimedia Commons. By bringing together rights information from these sources, CommonsDB makes it easier to confidently reuse, share, and build on openly available content.",
+        "part2": "You can explore the registry by uploading a digital asset or searching with an ISCC code or Declaration ID. If matching declarations are stored in the registry, they will appear in your results. Uploaded files are processed only for ISCC generation and are never stored or retained."
+      }
+    }
+  },
+  "statistics": {
+    "meta": {
+      "live": "Live registry",
+      "updatedAgo": "Updated {{minutes}} min ago"
+    },
+    "filter": {
+      "label": "Filter by supplier",
+      "allSuppliers": "All suppliers",
+      "clear": "Clear"
+    },
+    "kpi": {
+      "totalDeclarations": "Total declarations",
+      "dataSuppliers": "Data suppliers",
+      "deltaPeriod": "vs previous {{days}} days"
+    },
+    "chart": {
+      "total": "Total"
+    },
+    "timeChart": {
+      "title": "Declarations made over time",
+      "description": {
+        "monthly": "How many declarations were added each month. Stacked by data supplier — use the filter above to select individual data suppliers.",
+        "quarterly": "How many declarations were added each quarter. Stacked by data supplier — use the filter above to select individual data suppliers.",
+        "cumulative": "The running total of all declarations over time. Stacked by data supplier — use the filter above to select individual data suppliers."
+      },
+      "granularity": {
+        "ariaLabel": "Time granularity",
+        "monthly": "Month",
+        "quarterly": "Quarterly",
+        "cumulative": "Cumulative"
+      }
+    },
+    "licenseChart": {
+      "title": "License distribution",
+      "description": "Share of declarations by license."
+    },
+    "mediaChart": {
+      "title": "Media type",
+      "description": "What kinds of works are in the registry — images, text, audio, video."
+    },
+    "pdRationale": {
+      "title": "Public Domain Rationale",
+      "description": "Why is the content in the public domain? Among declarations that assert public-domain status, the rationale cited."
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for. It might have been moved or doesn't exist.",
+    "home": "Back to Explorer"
+  },
+  "modal": {
+    "cancel": "Cancel",
+    "ok": "Ok"
+  },
+  "table": {
+    "expandRow": "Expand row"
+  },
+  "upload": {
+    "clearImage": "Clear uploaded file",
+    "clearSearch": "Clear search"
+  },
+  "previousDeclarations": {
+    "title": "Previous Declarations",
+    "latestVersion": "Latest version",
+    "loading": "Loading…",
+    "empty": "No previous declarations found",
+    "field": "Field",
+    "oldValue": "Old Value",
+    "newValue": "New Value"
+  },
+  "conflict": {
+    "title": "Declaration Conflict",
+    "tooltip": "This declaration has a conflict. Click on the icon to learn more",
+    "description": "This declaration is in conflict with another declaration referring to the same content.",
+    "declaration": "Declaration",
+    "conflictingDeclarations": "Conflicting Declarations",
+    "cid": "CID",
+    "timestamp": "Timestamp"
+  }
+}
